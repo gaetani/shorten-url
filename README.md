@@ -34,9 +34,6 @@ PUT http://shortbackend/create?url=http://www.leverton.com.br
 {
    "alias": "XYhakR",
    "url": "http://shortener/u/XYhakR",
-   "statistics": {
-       "time_taken": "10ms",
-   }
 }
 ```
 

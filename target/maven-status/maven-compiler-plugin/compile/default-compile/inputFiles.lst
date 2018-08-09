@@ -1,0 +1,12 @@
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/service/IShortenerService.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/exception/BusinessException.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/exception/domain/CodeError.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/repository/ISequenceRepository.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/App.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/controller/ShortenerController.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/repository/IShortenerRepository.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/helper/URLTinyMe.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/domain/Shortener.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/service/ShortenerService.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/domain/Sequence.java
+/Users/fabiano.gaetani/Projects/git/shorten-url/backend/shorten-url-backend/src/main/java/br/com/leverton/shortenurl/configuration/MongoConfig.java
