@@ -6,6 +6,8 @@ import br.com.leverton.shortenurl.service.IShortenerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
+
 @RestController
 @RequestMapping
 public class ShortenerController {
@@ -20,11 +22,11 @@ public class ShortenerController {
 
 
     @GetMapping("/u")
-    public String getAlias(@PathVariable("id") String alias) throws Exception {
+    public String getAlias(@PathVariable("id") String alias, HttpServletResponse httpServletResponse) throws Exception {
         String url = shortenerService.getUrl(alias).getUrl();
-
-        // response.redirect(url);
-
+        httpServletResponse.sendRedirect(url);
         return url;
     }
+
+
 }
